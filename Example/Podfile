@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Stimulator_Example', :exclusive => true do
+  pod "Stimulator", :path => "../"
+end
+
+target 'Stimulator_Tests', :exclusive => true do
+  pod "Stimulator", :path => "../"
+
+  
+end
