@@ -59,6 +59,20 @@ class MyViewController: UIViewController, ShowAlertResponder {
 }
 ```
 
+In swift2.0, you can use protocol extensions to provide a default implementation.
+
+```
+extension ShowAlertResponder where Self : UIViewController {
+        
+    func showActionSheet(event: ShowActionSheetEvent) {
+        let alert = UIAlertController(title: event.title, message: event.message, preferredStyle: UIAlertControllerStyle.Alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Cancel, handler: { _ in }))
+        self.showViewController(alert, sender: nil)
+    }
+            
+}
+```
+
 ## Requirements
 
 + iOS 8.0+
