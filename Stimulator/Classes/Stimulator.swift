@@ -16,10 +16,17 @@ public protocol Event {
 public extension UIResponder  {
     
     public func stimulate<E: Event>(event: E) -> E.Responder? {
+        if let responder = stimulateResponder(event) {
+            event.stimulate(responder)
+            return responder
+        }
+        return nil
+    }
+    
+    public func stimulateResponder<E: Event>(event: E) -> E.Responder? {
         var responder : UIResponder? = self
         while (responder != nil) {
             if let responder = responder as? E.Responder {
-                event.stimulate(responder)
                 return responder
             }
             responder = responder?.nextResponder()
