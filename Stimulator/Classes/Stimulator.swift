@@ -15,11 +15,11 @@ public protocol Event {
 
 public extension UIResponder  {
     
-    public func stimulate<E: Event>(event: E) -> UIResponder? {
+    public func stimulate<E: Event>(event: E) -> E.Responder? {
         var responder : UIResponder? = self
         while (responder != nil) {
-            if let r = responder as? E.Responder {
-                event.stimulate(r)
+            if let responder = responder as? E.Responder {
+                event.stimulate(responder)
                 return responder
             }
             responder = responder?.nextResponder()
