@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "628433FF60D35FAAAEB9AECC"
+               BlueprintIdentifier = "41F6C250AECA28CC0C069262"
                BuildableName = "Stimulator.framework"
                BlueprintName = "Stimulator"
                ReferencedContainer = "container:Pods.xcodeproj">
