@@ -76,7 +76,7 @@ extension ShowAlertResponder where Self : UIViewController {
 ## Requirements
 
 + iOS 8.0+
-+ Xcode6 / swift1.2
++ Xcode7+
 
 ## Installation
 
