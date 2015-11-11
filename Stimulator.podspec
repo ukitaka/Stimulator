@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Stimulator"
-  s.version          = "1.0.3"
+  s.version          = "1.0.4"
   s.summary          = "Custom event handling based on Responder Chain"
   s.description      = <<-DESC
                        Stimulator
