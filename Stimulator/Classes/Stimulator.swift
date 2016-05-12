@@ -9,7 +9,7 @@
 import Foundation
 
 public protocol Event {
-    typealias Responder
+    associatedtype Responder
     func stimulate(responder: Responder)
 }
 
