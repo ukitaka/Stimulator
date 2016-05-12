@@ -1,5 +1,5 @@
 PODS:
-  - Stimulator (1.0.3)
+  - Stimulator (1.0.5)
 
 DEPENDENCIES:
   - Stimulator (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Stimulator: cc827209d55a9d2da648668d447a40fbca82bf28
+  Stimulator: e1fa6dd0139941fd0d1c9155f295b57da35cc437
 
 COCOAPODS: 0.39.0

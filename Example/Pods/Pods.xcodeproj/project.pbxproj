@@ -1,625 +1,1325 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		08232C9EAADEABECC2A749951B2AA588 /* Stimulator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04AD7B1AAA6C0788C47F5CFD3EE990C1 /* Stimulator.bundle */; };
-		2454023300269FF6982423D768A286AB /* Stimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A568AC5592DA01BC40E4BE27464AB3 /* Stimulator.swift */; };
-		264113BCF3EF6C79432964D04D06B47A /* Pods-Stimulator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E31BFC3CB5FA274B89AC7BF8C7A16442 /* Pods-Stimulator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5636D578201B3281EC723D985F208718 /* Stimulator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5928F2E60E1A715391FA156EFBCB6D46 /* Stimulator-dummy.m */; };
-		8ADCD793FEBD301BE2777F72AA971982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		C6DC8A0C3D798D2D54FE588962121ECA /* Stimulator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 799813FEDA650F65038B6499B5CAB258 /* Stimulator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D77FBB6485544D806DC39FF0CD70FE24 /* Pods-Stimulator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E373AD88E5FC53B85150AA8EDCB57481 /* Pods-Stimulator_Example-dummy.m */; };
-		D7B4B0EF65D03312CBAE17EA474FB300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0496D8C9FA969FE31622D090BA4CABC4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E6ECFB8D87D6097F78B064EABE9EC8E3;
-			remoteInfo = Stimulator;
-		};
-		1D6CE00D551B5E6D7A17A154F2D9F9D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A08F7786559BC70E132129443BBCCB9C;
-			remoteInfo = "Stimulator-Stimulator";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		04AD7B1AAA6C0788C47F5CFD3EE990C1 /* Stimulator.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stimulator.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F62C2C729C8DFC0D105804B5AA52432 /* Stimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		101C522C3E75996D2856D1A3479516FB /* Pods-Stimulator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Stimulator_Example-frameworks.sh"; sourceTree = "<group>"; };
-		24A568AC5592DA01BC40E4BE27464AB3 /* Stimulator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Stimulator.swift; sourceTree = "<group>"; };
-		33174FF36C8E4B46F075F3D4E0CD3904 /* Stimulator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Stimulator-prefix.pch"; sourceTree = "<group>"; };
-		3421DB318937997E1582BD4E6E4EBFEC /* Pods-Stimulator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stimulator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		45D394155E8CE244330C5E162B88F612 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5928F2E60E1A715391FA156EFBCB6D46 /* Stimulator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Stimulator-dummy.m"; sourceTree = "<group>"; };
-		74E3B727775DF3A9847B9DF4AB52D693 /* Pods-Stimulator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Stimulator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		799813FEDA650F65038B6499B5CAB258 /* Stimulator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Stimulator-umbrella.h"; sourceTree = "<group>"; };
-		82E996FCBF89B71AC7F4F52D0B728831 /* Pods_Stimulator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stimulator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE9FE0D9CD735AB5510AC7DC612F6CAE /* Pods-Stimulator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Stimulator_Example.modulemap"; sourceTree = "<group>"; };
-		C075416AAE8F6F6ECD409BC3DFE610AE /* Pods-Stimulator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stimulator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C7027AED26F0E1AA690EDA3B5A6EF065 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8CDE81210E4F84EFA0C40FA8B1AB94D /* Pods-Stimulator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stimulator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D249D3A6B1EA6BFCABE0DEEFEC97E74F /* Pods-Stimulator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Stimulator_Example-resources.sh"; sourceTree = "<group>"; };
-		E20E8865CEBF1E8F49FDA9BEC89B19CA /* Stimulator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Stimulator.xcconfig; sourceTree = "<group>"; };
-		E31BFC3CB5FA274B89AC7BF8C7A16442 /* Pods-Stimulator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Stimulator_Example-umbrella.h"; sourceTree = "<group>"; };
-		E373AD88E5FC53B85150AA8EDCB57481 /* Pods-Stimulator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Stimulator_Example-dummy.m"; sourceTree = "<group>"; };
-		F3F9E6EC52A3CB3047C04AE7CC4F9DC8 /* Stimulator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Stimulator.modulemap; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		435DF3E38E04D9FBCD55AD977DF2DB23 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7B4B0EF65D03312CBAE17EA474FB300 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C7AC3AF0846A31755F1CE18236C6DFCC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB0E216CD01A8447CFF4A9F142F3AE52 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8ADCD793FEBD301BE2777F72AA971982 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		05478D2AAA66B7E38D9C6C37B93530C0 /* Stimulator */ = {
-			isa = PBXGroup;
-			children = (
-				2A363DB903B09CF7768C64500947F1E0 /* Stimulator */,
-				AE3D43B417A5716A6431BDA3C8C094FC /* Support Files */,
-			);
-			name = Stimulator;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2A363DB903B09CF7768C64500947F1E0 /* Stimulator */ = {
-			isa = PBXGroup;
-			children = (
-				FA6AF6DD2A1388A1430219FC8B5552BA /* Classes */,
-			);
-			path = Stimulator;
-			sourceTree = "<group>";
-		};
-		654E3B7690ABDE6F4E1B134605A8239C /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7C8F0773671AF9510DE713FB437FE37A /* Pods-Stimulator_Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7C8F0773671AF9510DE713FB437FE37A /* Pods-Stimulator_Example */ = {
-			isa = PBXGroup;
-			children = (
-				C7027AED26F0E1AA690EDA3B5A6EF065 /* Info.plist */,
-				BE9FE0D9CD735AB5510AC7DC612F6CAE /* Pods-Stimulator_Example.modulemap */,
-				74E3B727775DF3A9847B9DF4AB52D693 /* Pods-Stimulator_Example-acknowledgements.markdown */,
-				C8CDE81210E4F84EFA0C40FA8B1AB94D /* Pods-Stimulator_Example-acknowledgements.plist */,
-				E373AD88E5FC53B85150AA8EDCB57481 /* Pods-Stimulator_Example-dummy.m */,
-				101C522C3E75996D2856D1A3479516FB /* Pods-Stimulator_Example-frameworks.sh */,
-				D249D3A6B1EA6BFCABE0DEEFEC97E74F /* Pods-Stimulator_Example-resources.sh */,
-				E31BFC3CB5FA274B89AC7BF8C7A16442 /* Pods-Stimulator_Example-umbrella.h */,
-				C075416AAE8F6F6ECD409BC3DFE610AE /* Pods-Stimulator_Example.debug.xcconfig */,
-				3421DB318937997E1582BD4E6E4EBFEC /* Pods-Stimulator_Example.release.xcconfig */,
-			);
-			name = "Pods-Stimulator_Example";
-			path = "Target Support Files/Pods-Stimulator_Example";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				F2C53B97DC04B3CB93BE529C6C860ACE /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7F6A5C82CFB11562B2B3588FE72C52B4 /* Products */,
-				654E3B7690ABDE6F4E1B134605A8239C /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		7F6A5C82CFB11562B2B3588FE72C52B4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				82E996FCBF89B71AC7F4F52D0B728831 /* Pods_Stimulator_Example.framework */,
-				04AD7B1AAA6C0788C47F5CFD3EE990C1 /* Stimulator.bundle */,
-				0F62C2C729C8DFC0D105804B5AA52432 /* Stimulator.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		AE3D43B417A5716A6431BDA3C8C094FC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				45D394155E8CE244330C5E162B88F612 /* Info.plist */,
-				F3F9E6EC52A3CB3047C04AE7CC4F9DC8 /* Stimulator.modulemap */,
-				E20E8865CEBF1E8F49FDA9BEC89B19CA /* Stimulator.xcconfig */,
-				5928F2E60E1A715391FA156EFBCB6D46 /* Stimulator-dummy.m */,
-				33174FF36C8E4B46F075F3D4E0CD3904 /* Stimulator-prefix.pch */,
-				799813FEDA650F65038B6499B5CAB258 /* Stimulator-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Stimulator";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F2C53B97DC04B3CB93BE529C6C860ACE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				05478D2AAA66B7E38D9C6C37B93530C0 /* Stimulator */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FA6AF6DD2A1388A1430219FC8B5552BA /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				24A568AC5592DA01BC40E4BE27464AB3 /* Stimulator.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		784A55FB97D61B0090DAB2B880AE911D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				264113BCF3EF6C79432964D04D06B47A /* Pods-Stimulator_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC133AAF57E56FB460B316A67BF3451F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6DC8A0C3D798D2D54FE588962121ECA /* Stimulator-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		A08F7786559BC70E132129443BBCCB9C /* Stimulator-Stimulator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A70623E6053EFA0486C981E75CF897F7 /* Build configuration list for PBXNativeTarget "Stimulator-Stimulator" */;
-			buildPhases = (
-				C2A42840FDF9C4DA43A76C4B5043C055 /* Sources */,
-				C7AC3AF0846A31755F1CE18236C6DFCC /* Frameworks */,
-				08E4ABDC0D037C80D3523BDB1C9E6C8F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Stimulator-Stimulator";
-			productName = "Stimulator-Stimulator";
-			productReference = 04AD7B1AAA6C0788C47F5CFD3EE990C1 /* Stimulator.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		D392F2C0B00F05CA09CC97C292459F7F /* Pods-Stimulator_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 21C566063E45B4C5EE4F87FAECD43770 /* Build configuration list for PBXNativeTarget "Pods-Stimulator_Example" */;
-			buildPhases = (
-				A84440548719D9419E0EE057866A4AEE /* Sources */,
-				DB0E216CD01A8447CFF4A9F142F3AE52 /* Frameworks */,
-				784A55FB97D61B0090DAB2B880AE911D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				23A6906A796310C42156C2EFFDDE9C5B /* PBXTargetDependency */,
-			);
-			name = "Pods-Stimulator_Example";
-			productName = "Pods-Stimulator_Example";
-			productReference = 82E996FCBF89B71AC7F4F52D0B728831 /* Pods_Stimulator_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E6ECFB8D87D6097F78B064EABE9EC8E3 /* Stimulator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6638ED56EE816015ADA9D8D06ECC4A3B /* Build configuration list for PBXNativeTarget "Stimulator" */;
-			buildPhases = (
-				2C63728C5BCC5DA897F75EDA0412A0B6 /* Sources */,
-				435DF3E38E04D9FBCD55AD977DF2DB23 /* Frameworks */,
-				2759DD43F8E878CB980B2893C42BF507 /* Resources */,
-				FC133AAF57E56FB460B316A67BF3451F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2A2B1F9809E561D91961CD1B8B3E2027 /* PBXTargetDependency */,
-			);
-			name = Stimulator;
-			productName = Stimulator;
-			productReference = 0F62C2C729C8DFC0D105804B5AA52432 /* Stimulator.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0710;
-			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7F6A5C82CFB11562B2B3588FE72C52B4 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				D392F2C0B00F05CA09CC97C292459F7F /* Pods-Stimulator_Example */,
-				E6ECFB8D87D6097F78B064EABE9EC8E3 /* Stimulator */,
-				A08F7786559BC70E132129443BBCCB9C /* Stimulator-Stimulator */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		08E4ABDC0D037C80D3523BDB1C9E6C8F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2759DD43F8E878CB980B2893C42BF507 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08232C9EAADEABECC2A749951B2AA588 /* Stimulator.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		2C63728C5BCC5DA897F75EDA0412A0B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5636D578201B3281EC723D985F208718 /* Stimulator-dummy.m in Sources */,
-				2454023300269FF6982423D768A286AB /* Stimulator.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A84440548719D9419E0EE057866A4AEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D77FBB6485544D806DC39FF0CD70FE24 /* Pods-Stimulator_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2A42840FDF9C4DA43A76C4B5043C055 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		23A6906A796310C42156C2EFFDDE9C5B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Stimulator;
-			target = E6ECFB8D87D6097F78B064EABE9EC8E3 /* Stimulator */;
-			targetProxy = 0496D8C9FA969FE31622D090BA4CABC4 /* PBXContainerItemProxy */;
-		};
-		2A2B1F9809E561D91961CD1B8B3E2027 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Stimulator-Stimulator";
-			target = A08F7786559BC70E132129443BBCCB9C /* Stimulator-Stimulator */;
-			targetProxy = 1D6CE00D551B5E6D7A17A154F2D9F9D2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		04036D82378311C1482AA4DD9CED3F2E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3421DB318937997E1582BD4E6E4EBFEC /* Pods-Stimulator_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Stimulator_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Stimulator_Example/Pods-Stimulator_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Stimulator_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		83CB757070214836C4CFB4DAF032C93F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C075416AAE8F6F6ECD409BC3DFE610AE /* Pods-Stimulator_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Stimulator_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Stimulator_Example/Pods-Stimulator_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Stimulator_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E1B666E05054B0F442AB60B394969576 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E20E8865CEBF1E8F49FDA9BEC89B19CA /* Stimulator.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = Stimulator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		EF6B5F7BB862C5B0D9425A89DC7F3AE8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E20E8865CEBF1E8F49FDA9BEC89B19CA /* Stimulator.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Stimulator/Stimulator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Stimulator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Stimulator/Stimulator.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Stimulator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F15DB018DBC89ECFE43BF7315ACC2DFE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E20E8865CEBF1E8F49FDA9BEC89B19CA /* Stimulator.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = Stimulator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		FF39DB2B0EF5915A317747C7485669EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E20E8865CEBF1E8F49FDA9BEC89B19CA /* Stimulator.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Stimulator/Stimulator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Stimulator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Stimulator/Stimulator.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Stimulator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		21C566063E45B4C5EE4F87FAECD43770 /* Build configuration list for PBXNativeTarget "Pods-Stimulator_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83CB757070214836C4CFB4DAF032C93F /* Debug */,
-				04036D82378311C1482AA4DD9CED3F2E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
-				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6638ED56EE816015ADA9D8D06ECC4A3B /* Build configuration list for PBXNativeTarget "Stimulator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EF6B5F7BB862C5B0D9425A89DC7F3AE8 /* Debug */,
-				FF39DB2B0EF5915A317747C7485669EC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A70623E6053EFA0486C981E75CF897F7 /* Build configuration list for PBXNativeTarget "Stimulator-Stimulator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E1B666E05054B0F442AB60B394969576 /* Debug */,
-				F15DB018DBC89ECFE43BF7315ACC2DFE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>04036D82378311C1482AA4DD9CED3F2E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>3421DB318937997E1582BD4E6E4EBFEC</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-Stimulator_Example/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-Stimulator_Example/Pods-Stimulator_Example.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_Stimulator_Example</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>0496D8C9FA969FE31622D090BA4CABC4</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>E6ECFB8D87D6097F78B064EABE9EC8E3</string>
+			<key>remoteInfo</key>
+			<string>Stimulator</string>
+		</dict>
+		<key>04AD7B1AAA6C0788C47F5CFD3EE990C1</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Stimulator.bundle</string>
+			<key>path</key>
+			<string>Stimulator.bundle</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>05478D2AAA66B7E38D9C6C37B93530C0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2A363DB903B09CF7768C64500947F1E0</string>
+				<string>AE3D43B417A5716A6431BDA3C8C094FC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Stimulator</string>
+			<key>path</key>
+			<string>../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>08232C9EAADEABECC2A749951B2AA588</key>
+		<dict>
+			<key>fileRef</key>
+			<string>04AD7B1AAA6C0788C47F5CFD3EE990C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>08E4ABDC0D037C80D3523BDB1C9E6C8F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0F62C2C729C8DFC0D105804B5AA52432</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Stimulator.framework</string>
+			<key>path</key>
+			<string>Stimulator.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>101C522C3E75996D2856D1A3479516FB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-Stimulator_Example-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>10DE1947DAC0ED28F6C0A9F9BD75D546</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>RELEASE=1</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>1D6CE00D551B5E6D7A17A154F2D9F9D2</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>A08F7786559BC70E132129443BBCCB9C</string>
+			<key>remoteInfo</key>
+			<string>Stimulator-Stimulator</string>
+		</dict>
+		<key>21C566063E45B4C5EE4F87FAECD43770</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>83CB757070214836C4CFB4DAF032C93F</string>
+				<string>04036D82378311C1482AA4DD9CED3F2E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>23A6906A796310C42156C2EFFDDE9C5B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Stimulator</string>
+			<key>target</key>
+			<string>E6ECFB8D87D6097F78B064EABE9EC8E3</string>
+			<key>targetProxy</key>
+			<string>0496D8C9FA969FE31622D090BA4CABC4</string>
+		</dict>
+		<key>2454023300269FF6982423D768A286AB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>24A568AC5592DA01BC40E4BE27464AB3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>24A568AC5592DA01BC40E4BE27464AB3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Stimulator.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>264113BCF3EF6C79432964D04D06B47A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E31BFC3CB5FA274B89AC7BF8C7A16442</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2759DD43F8E878CB980B2893C42BF507</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>08232C9EAADEABECC2A749951B2AA588</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2A2B1F9809E561D91961CD1B8B3E2027</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Stimulator-Stimulator</string>
+			<key>target</key>
+			<string>A08F7786559BC70E132129443BBCCB9C</string>
+			<key>targetProxy</key>
+			<string>1D6CE00D551B5E6D7A17A154F2D9F9D2</string>
+		</dict>
+		<key>2A363DB903B09CF7768C64500947F1E0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FA6AF6DD2A1388A1430219FC8B5552BA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Stimulator</string>
+			<key>path</key>
+			<string>Stimulator</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2C63728C5BCC5DA897F75EDA0412A0B6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5636D578201B3281EC723D985F208718</string>
+				<string>2454023300269FF6982423D768A286AB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>552D02D5BA751AC2E8790D2811D496CA</string>
+				<string>10DE1947DAC0ED28F6C0A9F9BD75D546</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>33174FF36C8E4B46F075F3D4E0CD3904</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Stimulator-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3421DB318937997E1582BD4E6E4EBFEC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Stimulator_Example.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3E4E89230EF59BC255123B67864ACF77</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>435DF3E38E04D9FBCD55AD977DF2DB23</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D7B4B0EF65D03312CBAE17EA474FB300</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>45D394155E8CE244330C5E162B88F612</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>552D02D5BA751AC2E8790D2811D496CA</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>5636D578201B3281EC723D985F208718</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5928F2E60E1A715391FA156EFBCB6D46</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5928F2E60E1A715391FA156EFBCB6D46</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Stimulator-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>654E3B7690ABDE6F4E1B134605A8239C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7C8F0773671AF9510DE713FB437FE37A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6638ED56EE816015ADA9D8D06ECC4A3B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>EF6B5F7BB862C5B0D9425A89DC7F3AE8</string>
+				<string>FF39DB2B0EF5915A317747C7485669EC</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>74E3B727775DF3A9847B9DF4AB52D693</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-Stimulator_Example-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>784A55FB97D61B0090DAB2B880AE911D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>264113BCF3EF6C79432964D04D06B47A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>799813FEDA650F65038B6499B5CAB258</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Stimulator-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7C8F0773671AF9510DE713FB437FE37A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C7027AED26F0E1AA690EDA3B5A6EF065</string>
+				<string>BE9FE0D9CD735AB5510AC7DC612F6CAE</string>
+				<string>74E3B727775DF3A9847B9DF4AB52D693</string>
+				<string>C8CDE81210E4F84EFA0C40FA8B1AB94D</string>
+				<string>E373AD88E5FC53B85150AA8EDCB57481</string>
+				<string>101C522C3E75996D2856D1A3479516FB</string>
+				<string>D249D3A6B1EA6BFCABE0DEEFEC97E74F</string>
+				<string>E31BFC3CB5FA274B89AC7BF8C7A16442</string>
+				<string>C075416AAE8F6F6ECD409BC3DFE610AE</string>
+				<string>3421DB318937997E1582BD4E6E4EBFEC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-Stimulator_Example</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-Stimulator_Example</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
+				<string>F2C53B97DC04B3CB93BE529C6C860ACE</string>
+				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
+				<string>7F6A5C82CFB11562B2B3588FE72C52B4</string>
+				<string>654E3B7690ABDE6F4E1B134605A8239C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F6A5C82CFB11562B2B3588FE72C52B4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>82E996FCBF89B71AC7F4F52D0B728831</string>
+				<string>04AD7B1AAA6C0788C47F5CFD3EE990C1</string>
+				<string>0F62C2C729C8DFC0D105804B5AA52432</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>82E996FCBF89B71AC7F4F52D0B728831</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_Stimulator_Example.framework</string>
+			<key>path</key>
+			<string>Pods_Stimulator_Example.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>83CB757070214836C4CFB4DAF032C93F</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>C075416AAE8F6F6ECD409BC3DFE610AE</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-Stimulator_Example/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-Stimulator_Example/Pods-Stimulator_Example.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_Stimulator_Example</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>8ADCD793FEBD301BE2777F72AA971982</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A08F7786559BC70E132129443BBCCB9C</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>A70623E6053EFA0486C981E75CF897F7</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C2A42840FDF9C4DA43A76C4B5043C055</string>
+				<string>C7AC3AF0846A31755F1CE18236C6DFCC</string>
+				<string>08E4ABDC0D037C80D3523BDB1C9E6C8F</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Stimulator-Stimulator</string>
+			<key>productName</key>
+			<string>Stimulator-Stimulator</string>
+			<key>productReference</key>
+			<string>04AD7B1AAA6C0788C47F5CFD3EE990C1</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle</string>
+		</dict>
+		<key>A70623E6053EFA0486C981E75CF897F7</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>E1B666E05054B0F442AB60B394969576</string>
+				<string>F15DB018DBC89ECFE43BF7315ACC2DFE</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>A84440548719D9419E0EE057866A4AEE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D77FBB6485544D806DC39FF0CD70FE24</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>AE3D43B417A5716A6431BDA3C8C094FC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>45D394155E8CE244330C5E162B88F612</string>
+				<string>F3F9E6EC52A3CB3047C04AE7CC4F9DC8</string>
+				<string>E20E8865CEBF1E8F49FDA9BEC89B19CA</string>
+				<string>5928F2E60E1A715391FA156EFBCB6D46</string>
+				<string>33174FF36C8E4B46F075F3D4E0CD3904</string>
+				<string>799813FEDA650F65038B6499B5CAB258</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Example/Pods/Target Support Files/Stimulator</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BE9FE0D9CD735AB5510AC7DC612F6CAE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods-Stimulator_Example.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3E4E89230EF59BC255123B67864ACF77</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C075416AAE8F6F6ECD409BC3DFE610AE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Stimulator_Example.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C2A42840FDF9C4DA43A76C4B5043C055</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C6DC8A0C3D798D2D54FE588962121ECA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>799813FEDA650F65038B6499B5CAB258</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C7027AED26F0E1AA690EDA3B5A6EF065</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C7AC3AF0846A31755F1CE18236C6DFCC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C8CDE81210E4F84EFA0C40FA8B1AB94D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-Stimulator_Example-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D249D3A6B1EA6BFCABE0DEEFEC97E74F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-Stimulator_Example-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D392F2C0B00F05CA09CC97C292459F7F</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>21C566063E45B4C5EE4F87FAECD43770</string>
+			<key>buildPhases</key>
+			<array>
+				<string>A84440548719D9419E0EE057866A4AEE</string>
+				<string>DB0E216CD01A8447CFF4A9F142F3AE52</string>
+				<string>784A55FB97D61B0090DAB2B880AE911D</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>23A6906A796310C42156C2EFFDDE9C5B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Stimulator_Example</string>
+			<key>productName</key>
+			<string>Pods-Stimulator_Example</string>
+			<key>productReference</key>
+			<string>82E996FCBF89B71AC7F4F52D0B728831</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>D41D8CD98F00B204E9800998ECF8427E</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0700</string>
+				<key>LastUpgradeCheck</key>
+				<string>0700</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>7DB346D0F39D3F0E887471402A8071AB</string>
+			<key>productRefGroup</key>
+			<string>7F6A5C82CFB11562B2B3588FE72C52B4</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>D392F2C0B00F05CA09CC97C292459F7F</string>
+				<string>E6ECFB8D87D6097F78B064EABE9EC8E3</string>
+				<string>A08F7786559BC70E132129443BBCCB9C</string>
+			</array>
+		</dict>
+		<key>D77FBB6485544D806DC39FF0CD70FE24</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E373AD88E5FC53B85150AA8EDCB57481</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D7B4B0EF65D03312CBAE17EA474FB300</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DB0E216CD01A8447CFF4A9F142F3AE52</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8ADCD793FEBD301BE2777F72AA971982</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E1B666E05054B0F442AB60B394969576</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E20E8865CEBF1E8F49FDA9BEC89B19CA</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>Stimulator</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>E20E8865CEBF1E8F49FDA9BEC89B19CA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Stimulator.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E31BFC3CB5FA274B89AC7BF8C7A16442</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Stimulator_Example-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E373AD88E5FC53B85150AA8EDCB57481</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-Stimulator_Example-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E6ECFB8D87D6097F78B064EABE9EC8E3</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>6638ED56EE816015ADA9D8D06ECC4A3B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2C63728C5BCC5DA897F75EDA0412A0B6</string>
+				<string>435DF3E38E04D9FBCD55AD977DF2DB23</string>
+				<string>2759DD43F8E878CB980B2893C42BF507</string>
+				<string>FC133AAF57E56FB460B316A67BF3451F</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>2A2B1F9809E561D91961CD1B8B3E2027</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Stimulator</string>
+			<key>productName</key>
+			<string>Stimulator</string>
+			<key>productReference</key>
+			<string>0F62C2C729C8DFC0D105804B5AA52432</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>EF6B5F7BB862C5B0D9425A89DC7F3AE8</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E20E8865CEBF1E8F49FDA9BEC89B19CA</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Stimulator/Stimulator-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Stimulator/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Stimulator/Stimulator.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>Stimulator</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>F15DB018DBC89ECFE43BF7315ACC2DFE</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E20E8865CEBF1E8F49FDA9BEC89B19CA</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>Stimulator</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>F2C53B97DC04B3CB93BE529C6C860ACE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>05478D2AAA66B7E38D9C6C37B93530C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F3F9E6EC52A3CB3047C04AE7CC4F9DC8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Stimulator.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA6AF6DD2A1388A1430219FC8B5552BA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>24A568AC5592DA01BC40E4BE27464AB3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FC133AAF57E56FB460B316A67BF3451F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C6DC8A0C3D798D2D54FE588962121ECA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FF39DB2B0EF5915A317747C7485669EC</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E20E8865CEBF1E8F49FDA9BEC89B19CA</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Stimulator/Stimulator-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Stimulator/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Stimulator/Stimulator.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>Stimulator</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>D41D8CD98F00B204E9800998ECF8427E</string>
+</dict>
+</plist>
