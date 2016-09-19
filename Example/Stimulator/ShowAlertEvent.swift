@@ -2,8 +2,8 @@
 //  ShowAlertEvent.swift
 //  Stimulator
 //
-//  Created by Yuki Takahashi on 2015/07/29.
-//  Copyright (c) 2015年 CocoaPods. All rights reserved.
+//  Created by Yuki Takahashi on 2016/09/19.
+//  Copyright © 2016年 CocoaPods. All rights reserved.
 //
 
 import Foundation
@@ -21,12 +21,10 @@ struct ShowAlertEvent : Stimulator.Event {
     }
     
     func stimulate(responder: Responder) {
-        responder.showAlert(self)
+        responder.showAlert(event: self)
     }
 }
 
 protocol ShowAlertResponder {
-    
     func showAlert(event: ShowAlertEvent)
-    
 }

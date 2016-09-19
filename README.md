@@ -17,16 +17,16 @@ struct ShowAlertEvent : Stimulator.Event {
 
     typealias Responder = ShowAlertResponder
 
-    let title: String
-    let message: String
+        let title: String
+        let message: String
 
-    init(_ title: String, _ message: String) {
-        self.title = title
-        self.message = message
-    }
+        init(_ title: String, _ message: String) {
+            self.title = title
+                self.message = message
+        }
 
     func stimulate(responder: Responder) {
-        responder.showAlert(self)
+        responder.showAlert(event: self)
     }
 }
 
@@ -42,41 +42,41 @@ protocol ShowAlertResponder {
 Generates event in `UIResponer` subclass (e.g. `UIView`, `UIViewController`)
 
 ```
-self.stimulate(ShowAlertEvent("title", "message"))
+self.stimulate(event: ShowAlertEvent("title", "message"))
 ```
 
 ### Handle event
 
 ```
 class MyViewController: UIViewController, ShowAlertResponder {
-        
+
     func showAlert(event: ShowAlertEvent) {
-        let alert = UIAlertController(title: event.title, message: event.message, preferredStyle: UIAlertControllerStyle.Alert)
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Cancel, handler: { _ in }))
-        self.showViewController(alert, sender: nil)
+        let alert = UIAlertController(title: event.title, message: event.message, preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.cancel, handler: { _ in }))
+        self.show(alert, sender: nil)
     }
 
 }
 ```
 
-In swift2.0, you can use protocol extensions to provide a default implementation.
+You can use protocol extensions to provide a default implementation.
 
 ```
 extension ShowAlertResponder where Self : UIViewController {
-        
+
     func showActionSheet(event: ShowActionSheetEvent) {
-        let alert = UIAlertController(title: event.title, message: event.message, preferredStyle: UIAlertControllerStyle.Alert)
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Cancel, handler: { _ in }))
+        let alert = UIAlertController(title: event.title, message: event.message, preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.cancel, handler: { _ in }))
         self.showViewController(alert, sender: nil)
     }
-            
+
 }
 ```
 
 ## Requirements
 
-+ iOS 8.0+
-+ Xcode7+
++ iOS 9.0+
++ Xcode8+
 
 ## Installation
 

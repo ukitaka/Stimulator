@@ -2,7 +2,7 @@
 //  Stimulator.swift
 //  Pods
 //
-//  Created by Yuki Takahashi on 2015/07/29.
+//  Created by Yuki Takahashi on 2016/09/19.
 //
 //
 
@@ -15,21 +15,23 @@ public protocol Event {
 
 public extension UIResponder  {
     
+    @discardableResult
     public func stimulate<E: Event>(event: E) -> E.Responder? {
-        if let responder = stimulateResponder(event) {
-            event.stimulate(responder)
+        if let responder = stimulateResponder(event: event) {
+            event.stimulate(responder: responder)
             return responder
         }
         return nil
     }
     
+    @discardableResult
     public func stimulateResponder<E: Event>(event: E) -> E.Responder? {
         var responder : UIResponder? = self
         while (responder != nil) {
             if let responder = responder as? E.Responder {
                 return responder
             }
-            responder = responder?.nextResponder()
+            responder = responder?.next
         }
         return nil
     }
