@@ -1,6 +1,0 @@
-framework module Stimulator {
-  umbrella header "Stimulator-umbrella.h"
-
-  export *
-  module * { export * }
-}
