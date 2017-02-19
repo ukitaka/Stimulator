@@ -4,13 +4,16 @@
 [![License](https://img.shields.io/cocoapods/l/Stimulator.svg?style=flat)](http://cocoapods.org/pods/Stimulator)
 [![Platform](https://img.shields.io/cocoapods/p/Stimulator.svg?style=flat)](http://cocoapods.org/pods/Stimulator)
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager) 
+
 Custom event handling based on Responder Chain.
 
 ## Usage
 
 ### Create custom event and handler protocol
 
-```
+```swift
 import Stimulator
 
 struct ShowAlertEvent : Stimulator.Event {
@@ -41,13 +44,13 @@ protocol ShowAlertResponder {
 
 Generates event in `UIResponer` subclass (e.g. `UIView`, `UIViewController`)
 
-```
+```swift
 self.stimulate(event: ShowAlertEvent("title", "message"))
 ```
 
 ### Handle event
 
-```
+```swift
 class MyViewController: UIViewController, ShowAlertResponder {
 
     func showAlert(event: ShowAlertEvent) {
@@ -61,7 +64,7 @@ class MyViewController: UIViewController, ShowAlertResponder {
 
 You can use protocol extensions to provide a default implementation.
 
-```
+```swift
 extension ShowAlertResponder where Self : UIViewController {
 
     func showActionSheet(event: ShowActionSheetEvent) {
